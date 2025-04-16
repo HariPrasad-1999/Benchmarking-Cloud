@@ -1,0 +1,3 @@
+### Google Bucket serving - Benchmarking with requests
+
+ab -n 10000 http://storage.googleapis.com/$PROJECT_ID-serving-bucket/testfile.txt
